@@ -1,9 +1,7 @@
 from fastmcp import FastMCP
 
 mcp = FastMCP(name="Your MCP server name",
-    instructions="Your MCP server instructions go here. Like how to use the server.",
-    website_url="https://gokulakrishna.co",
-    version="1.0.0"
+    instructions="Your MCP server instructions go here. Like how to use the server."
 )
 
 @mcp.tool
